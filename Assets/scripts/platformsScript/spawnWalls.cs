@@ -11,7 +11,7 @@ public class spawnqube : MonoBehaviour
     void Start()
     {
         // spawnar walls i x och y axel (9 på y) och (5 på x)
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 4; i++)
         {
             for (int j = 0; j < 9; j++)
             {

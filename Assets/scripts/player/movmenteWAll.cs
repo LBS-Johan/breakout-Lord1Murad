@@ -24,7 +24,16 @@ public class movmente : MonoBehaviour
         {
             rigidbody.velocity = new Vector2(3, 0);
         }
-       
+        if ( Input.GetKey(KeyCode.W))
+        {
+            rigidbody.velocity = new Vector2(0, 3);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            rigidbody.velocity = new Vector2(0, -3);
+        }
+
+
 
 
     }
