@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MovmentCircle : MonoBehaviour
 {
-    public int speed = 1; 
+    public int speed1 = 1; 
     Rigidbody2D rigitbodyCircle;
     // Start is called before the first frame update
     void Start()
@@ -18,8 +18,8 @@ public class MovmentCircle : MonoBehaviour
     void Update()
     {
         
-       float speed = 4;
-       rigitbodyCircle.velocity = rigitbodyCircle.velocity.normalized * speed;
+       float speed = 1 ;
+       rigitbodyCircle.velocity = rigitbodyCircle.velocity.normalized * speed * speed1 ;
         
 
     }
