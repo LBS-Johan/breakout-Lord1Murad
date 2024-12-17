@@ -18,7 +18,7 @@ public class Points : MonoBehaviour
     void Update()
     {
         pointsUi.text = points.ToString(); 
-        if ( points == 3200)
+        if ( points == 3600)
         {
             SceneManager.LoadScene(2);
         }
